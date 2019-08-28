@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "IsotBank",
+    "packageName": "isot.bank.application",
+    "packageFolder": "isot/bank/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "MjUxZGQwZmVjN2RkMDE2ZjU2NzcyYmFlOGQ5ZTE0YTI5ODczZTJlNGJmMTAyNWY2MTdhZDdlNjg5NWQ5MjBhYThlN2RhNTU1ZjQ4NDI5ZTRjNGYwMDVkYzMyNzE3MmM4Y2NmOGQ3ZmJiOWU2MzQ0ZTY0YmE1NmY3NDMzNDI5NGI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "bjethva",
+  "repository-name": "IsotBankApp"
+}
