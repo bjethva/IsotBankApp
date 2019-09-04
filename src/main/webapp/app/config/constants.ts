@@ -8,6 +8,8 @@ export const SERVER_API_URL = process.env.SERVER_API_URL;
 
 export const AUTHORITIES = {
   ADMIN: 'ROLE_ADMIN',
+  MANAGER: 'ROLE_MANAGER',
+  STAFF: 'ROLE_STAFF',
   USER: 'ROLE_USER'
 };
 
