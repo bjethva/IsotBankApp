@@ -43,6 +43,7 @@ public class CacheConfiguration {
             createCache(cm, isot.bank.application.domain.User.class.getName());
             createCache(cm, isot.bank.application.domain.Authority.class.getName());
             createCache(cm, isot.bank.application.domain.User.class.getName() + ".authorities");
+            createCache(cm, isot.bank.application.domain.Payees.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
